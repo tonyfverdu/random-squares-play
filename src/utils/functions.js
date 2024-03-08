@@ -17,6 +17,7 @@ export function chooseRandomElement(parArray, parLength) {
   while (arrayResult.length < parLength) {
     let randomIndex = Math.floor(Math.random() * parArray.length);
     let randomElement = parArray[randomIndex];
+
     if (!arrayResult.includes(randomElement)) {
       arrayResult.push(randomElement);
     }

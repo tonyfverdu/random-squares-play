@@ -22,10 +22,10 @@ const colorsCSS = [
   },
   {
     id: 4,
-    nameCSS: "Aqua",
-    color: "#00ffff",
-    colorRGB: "0, 255, 255",
-    colorHEX: "#00ffff"
+    nameCSS: "Limegreen",
+    color: "#32cd32",
+    colorRGB: "50, 205, 50",
+    colorHEX: "#32cd32"
   },
   {
     id: 5,
@@ -58,9 +58,9 @@ const colorsCSS = [
   {
     id: 9,
     nameCSS: "Green",
-    color: "#00ff00",
-    colorRGB: "0, 255, 0",
-    colorHEX: "#00ff00"
+    color: "#008000",
+    colorRGB: "0, 128, 0",
+    colorHEX: "#008000"
   },
   {
     id: 10,
