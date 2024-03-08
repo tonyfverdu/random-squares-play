@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    height: auto;
+  
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(43, 42, 42);
+  }
+  
+  .cardTitle {
+    font-size: 0.9em;
+    font-weight: 800;
+  }
+  
+  .cardColor {
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+  
+  .cardRGB {
+    font-size: 0.7em;
+    font-weight: 500;
+  }

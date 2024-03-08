@@ -1,0 +1,22 @@
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 12rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  transition: all .35s ease-in-out;
+
+  /* background-color: rgb(235, 235, 235); */
+  box-shadow: rgb(32, 32, 32) 0px 0px 1.6rem;
+  border-radius: 9px;
+}
+
+.square:hover,
+.square:focus,
+.square:active {
+  cursor: pointer;
+  transform: scale(1.16) rotate3d(1, 1, 1000, 20deg);
+}

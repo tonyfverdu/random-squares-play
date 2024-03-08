@@ -1,0 +1,129 @@
+.contCentral {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+
+  background: linear-gradient(to top, rgb(206, 206, 206) 12%, rgb(151, 151, 151) 24%, rgb(90, 90, 90) 46%, rgb(32, 32, 32) 68%, rgb(7, 7, 7));
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px rgb(155, 30, 30);
+  border: 2px solid silver;
+  border-radius: 12px;
+}
+
+.contHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  margin: 2% auto;
+}
+
+/* ------------------------------------------------------------- */
+
+.contBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 56vh;
+  gap: 0.35rem;
+  margin: 2% auto;
+  background-color: rgb(235, 235, 235);
+  box-shadow: rgb(32, 32, 32) 0px 0px 1.6rem;
+
+  border: 2px solid rgb(43, 43, 43);
+  border-radius: 9px;
+}
+
+.contCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: inherit;
+  margin: 0% auto;
+  margin-top: 2%;
+  gap: 2rem;
+  background-color: rgb(235, 235, 235);
+  box-shadow: rgb(32, 32, 32) 0px 0px 1.6rem;
+
+  border: 2px solid gray;
+  border-radius: 6px;
+}
+
+/* ------------------------------------------------------------- */
+.groupButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 2% auto;
+
+  border: 1px solid blue;
+}
+
+#message {
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+
+  color: navy;
+  text-shadow: rgb(0, 5, 70) 0px 0px 1.6rem;
+
+  margin: 5px auto;
+}
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
